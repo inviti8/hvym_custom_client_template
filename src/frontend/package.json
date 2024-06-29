@@ -23,7 +23,6 @@
   "dependencies": {
     "@dfinity/agent": "^0.20.0",
     "@dfinity/candid": "^0.20.0",
-    "@dfinity/principal": "^0.20.0",
-    "@heavymeta/proprium": "^0.0.3"
+    "@dfinity/principal": "^0.20.0"
   }
 }

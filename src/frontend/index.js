@@ -1,5 +1,5 @@
 import { backend } from '../declarations/backend';
-import * as PROPRIUM from '@heavymeta/proprium';
+import * as PROPRIUM from 'hvym-proprium';
 
 
 const SCENE =  new PROPRIUM.HVYM_DefaultScene();
