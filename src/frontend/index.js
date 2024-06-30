@@ -8,7 +8,7 @@ SCENE.createCameraOrbitControls();
 const ORIGIN = new PROPRIUM.InvisibleBox(SCENE.scene).box;
 SCENE.setOrigin(ORIGIN);
 ORIGIN.name = "ORIGIN";
-// const IC_MINTER = SCENE.addICModelMinterClient( './test.glb', AuthClient, HttpAgent, createActor, ID_PROVIDER, MINTER_BACKEND, true);
+const IC_CLIENT = SCENE.addICCustomClient('monkey_test1.glb', backend );
 
 
 SCENE.scene.add( ORIGIN );
